@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { RecommendCard } from "@/components/domain/RecommendCard";
 
 export default function Home() {
   return (
@@ -58,6 +59,10 @@ export default function Home() {
           >
             Documentation
           </a>
+          <RecommendCard
+            title="태안 해변"
+            description="충남 태안에 위치한 아름다운 모래언덕입니다."
+          />
         </div>
       </main>
     </div>
