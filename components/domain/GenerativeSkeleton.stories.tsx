@@ -7,10 +7,10 @@ function GenerativeSkeleton() {
         <div className="flex items-center gap-4">
           <div className="h-12 w-12 rounded-full bg-slate-200" />
           <div className="flex-1 space-y-3">
-            <div className="h-4 w-28 rounded-full bg-green-200" />
+            <div className="h-4 w-28 rounded-full bg-purple-200" />
             <div className="h-3 w-40 rounded-full bg-slate-200" />
           </div>
-          <div className="h-8 w-16 rounded-full bg-green-100" />
+          <div className="h-8 w-16 rounded-full bg-purple-100" />
         </div>
 
         <div className="space-y-3">
@@ -21,7 +21,7 @@ function GenerativeSkeleton() {
 
         <div className="rounded-xl border border-slate-100 bg-slate-50 p-4">
           <div className="space-y-3">
-            <div className="h-3 w-24 rounded-full bg-green-200" />
+            <div className="h-3 w-24 rounded-full bg-purple-200" />
             <div className="h-3 w-full rounded-full bg-slate-200" />
             <div className="h-3 w-5/6 rounded-full bg-slate-200" />
           </div>
