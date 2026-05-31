@@ -19,7 +19,7 @@ export const Default: Story = {
 export const HoverConfirmedColor: Story = {
   args: {
     variant: "default",
-    children: "Hover Button",
+    children: "호버 시 지정된 색으로 변경됩니다.",
   },
   parameters: {
     pseudo: { hover: true },
@@ -29,7 +29,7 @@ export const HoverConfirmedColor: Story = {
 export const HoverPercentColor: Story = {
   args: {
     variant: "default",
-    children: "Hover Button",
+    children: "호버 시 원래 색에서 80% 투명도로 변경됩니다.",
     className: "hover:bg-primary/80",
   },
   parameters: {
