@@ -12,7 +12,8 @@ const config: StorybookConfig = {
     "@storybook/addon-a11y",
     "@storybook/addon-docs",
     "@storybook/addon-mcp",
-    '@storybook/addon-styling-webpack'
+    "@storybook/addon-styling-webpack",
+    "storybook-addon-pseudo-states"
   ],
   "framework": "@storybook/nextjs-vite",
   "staticDirs": [
