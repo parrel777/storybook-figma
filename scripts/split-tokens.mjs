@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // tokens.json 파일 읽기 (절대 경로 사용)
-const tokensPath = path.join(__dirname, 'tokens/tokens.json');
+const tokensPath = path.join(__dirname, '../tokens/tokens.json');
 const tokens = JSON.parse(fs.readFileSync(tokensPath, 'utf-8'));
 
 // `$metadata.tokenSetOrder`에 정의된 키들을 가져오기
@@ -21,7 +21,7 @@ await tokenSets.forEach((set) => {
 
   if (tokens[set]) {
     const data = JSON.stringify(tokens[set], null, 2);
-    const outputPath = path.join(__dirname, `tokens/sd-${set}.json`);
+    const outputPath = path.join(__dirname, `../tokens/sd-${set}.json`);
     fs.writeFileSync(outputPath, data);
     console.log(`sd-${set}.json 파일이 생성되었습니다.`);
   }

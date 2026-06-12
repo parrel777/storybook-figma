@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "build:tokens": "node scripts/split-tokens.mjs && node scripts/sd-tokens-config.mjs --verbose",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
